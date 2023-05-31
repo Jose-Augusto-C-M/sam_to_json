@@ -11,12 +11,12 @@ Python3.9
 PyQt5 / PySide2
 
 # Environment setup:
-
+```
 conda create --name=sam_to_json python=3.9
 
 
 source activate sam_to_json
-
+```
 # SAM instalation:
 
 pip install git+https://github.com/facebookresearch/segment-anything.git
