@@ -1,4 +1,4 @@
-To load SAM doenload the description from the official SAM repository
+To load SAM download the description from the official SAM repository: https://github.com/facebookresearch/segment-anything/tree/main#model-checkpoints
 
 Model Checkpoints
 Three model versions of the model are available with different backbone sizes. These models can be instantiated by running
