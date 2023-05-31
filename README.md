@@ -1,4 +1,4 @@
-Preparation of dependencies
+# Preparation of dependencies
 
 The code requires python>=3.9, as well as pytorch>=1.7 and torchvision>=0.8. Installing both PyTorch and TorchVision with CUDA support is strongly recommended.
 
@@ -6,16 +6,16 @@ The basis for the idea of project involves SAM: https://github.com/facebookresea
 
 Requirements
 Ubuntu / macOS / Windows
-Python3
+Python3.9
 PyQt5 / PySide2
 
-Environment setup:
+# Environment setup:
 
-# python3
-conda create --name=sam_to_json python=3
+#python3
+conda create --name=sam_to_json python=3.9
 source activate sam_to_json
 
-SAM instalation:
+# SAM instalation:
 
 pip install git+https://github.com/facebookresearch/segment-anything.git
 or clone the repository locally and install with
@@ -38,10 +38,10 @@ vit_b: ViT-B SAM model. https://dl.fbaipublicfiles.com/segment_anything/sam_vit_
 
 To see and edit the .json labels you can use labelme
 
-labelme instalation: 
+# labelme instalation: 
 
-# conda install -c conda-forge pyside2
-# conda install pyqt
-# pip install pyqt5  # pyqt5 can be installed via pip on python3
+#conda install -c conda-forge pyside2
+#conda install pyqt
+#pip install pyqt5  # pyqt5 can be installed via pip on python3
 pip install labelme
 
