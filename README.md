@@ -20,9 +20,7 @@ Download the repository to a folder and get inside the folder
 Create and install dependencies in a new environment by running
 
 ```python
-
 conda create --name=samjson python=3
 source activate samjson
 pip install -r requirements.txt
-
 ```
