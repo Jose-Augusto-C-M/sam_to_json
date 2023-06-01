@@ -51,7 +51,7 @@ Single image: https://github.com/Jose-Augusto-C-M/sam_to_json/blob/master/Single
 
 Inside the scripts there are ploting tools for analisys of the proposed mask
 
-the part of the code 
+The part of the code that creates the mask is:
 
 ```python
 mask_generator_ = SamAutomaticMaskGenerator(
@@ -64,7 +64,8 @@ mask_generator_ = SamAutomaticMaskGenerator(
     min_mask_region_area=300,  
 )
 ```
-provide the tuning parameters for the created masks, if the mask is adequated, you can execute:
+
+provide the tuning parameters for the created masks, if the mask is adequated, you follow the code and execute:
 
 ```python
 import json
