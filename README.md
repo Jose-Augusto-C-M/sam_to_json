@@ -45,6 +45,8 @@ pip install -r requirements.txt
 Run one of the following code chaging the path to files inside the scripts
 
 More than one image: https://github.com/Jose-Augusto-C-M/sam_to_json/blob/master/Many_images.ipynb
+
+
 Single image: https://github.com/Jose-Augusto-C-M/sam_to_json/blob/master/Single_image.ipynb
 
 Inside the scripts there are ploting tools for analisys of the proposed mask
